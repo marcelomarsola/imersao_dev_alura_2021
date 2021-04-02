@@ -1,0 +1,144 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/interstellar_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #163E59;
+    opacity: .8;
+}
+
+h1 {
+    font-family: 'Thasadith', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff;
+    font-weight: bolder;
+}
+
+#leftDiv {
+    float: left;
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+#rightDiv {
+    float: left;
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+article {
+    width: 300px;
+    height: 370px;
+    margin-left: 20px;
+    margin-top: 70px;
+    background-color: #163E59;
+    opacity: .8;
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: 'Thasadith', sans-serif;
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Thasadith', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    height: 370px;
+    margin-top: 70px;
+    background-color: #163E59;
+    opacity: .8;
+    border-radius: 10px;
+}
+
+label p {
+    font-family: 'Thasadith', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+input {
+    width: 85%;
+    height: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 20px;
+
+}
+
+button {
+    width: 160px;
+    height: 35px;
+    background-color: #fff;
+    color: #163E59;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-size: 21px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 70px;
+
+}
+
+#resultadoAnoLuz {
+    color: red;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: #163E59;
+    opacity: .8;
+    bottom: 0;
+    position: fixed;
+}
+
+footer h3 {
+    font-family: 'Thasadith', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    border-top: 2px solid #fff;
+    font-weight: bolder;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Thasadith&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">    
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>IMERSÃO DEV - ALURA</title>
+</head>
+<body>
+    <header>
+        <h1>IMERSÃO DEV - ALURA</h1>
+    </header>
+    <main>
+        <div id="leftDiv">
+            <article>
+                <h2>CONVERSOR DE GRANDEZAS:</h2>
+                <p> 
+                    Este app permite a conversão de 
+                    anos-luz para a grandeza métrica 
+                    em quilometros.
+                </p>
+                <h2>O QUE É UM ANO-LUZ ?</h2>
+                <p> 
+                    O ano-luz é uma unidade de distância 
+                    utilizada na astronomia. Um ano-luz é a 
+                    distância que a luz percorre, no vácuo, 
+                    durante um ano.
+                </p>
+                <p>
+                    1 ano-luz = 9.460.730.472.580.8 km
+                    <br>
+                    ou seja, aproximadamente: 
+                    <br>
+                    1 ano-luz = 9.5 trilhoes de Km
+                </p>
+            </article>
+        </div>
+        <div  id="rightDiv">
+            <form action="">
+                <h2>Conversor <br> Ano-Luz --- Quilometros.</h2>
+                <label for="anoLuz">
+                    <p>
+                        Informe o valor em ano-luz:
+                    </p>
+                </label>
+                <input type="number" id="fAnoLuz">
+                <button type="submit" onclick="calculaAnoLuz()">CALCULAR</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h3>developed with happiness</h3>
+    </footer>
+</body>
+<script src="scripts/main.js"></script>
+</html>
