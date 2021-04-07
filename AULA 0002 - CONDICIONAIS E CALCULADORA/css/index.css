@@ -1,8 +1,8 @@
 body {
     width: 100%;
     height: 100vh;
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 }
 
 h1 {
@@ -60,32 +60,41 @@ h3 {
 .btnOperators {
     border-radius: 20px;
     text-align: center;
-    height: 260px;
+    height: 175px;
     margin-left: auto;
     margin-right: auto;
-    width: 210px;
+    width: 500px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    background-color: #fff;
+
 }
 
 button {
-    width: 55px;
+    width: 65px;
     height: 55px;
-    background-color: #C850C0;
+    background-color: #fff;
     border: none;
-    border: 2px solid #C850C0;
-    border-radius: 100%;
-    color:#fff;
-    font-size: 28px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: lightseagreen;
+    font-size: 32px;
     margin: 15px 15px;
 }
 
 button:hover {
-    background-color: #fff;
-    color:#C850C0; 
+    color:darkblue;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-
+.btnIgual {
+    width: 180px;
+    height: 55px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    color: lightseagreen;
+    font-size: 32px;
+    margin: 15px 15px;
+}
 
 
 
